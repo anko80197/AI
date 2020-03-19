@@ -34,6 +34,7 @@ plt.title("Line")
 plt.legend()
 plt.show()
 ```
+![line](./line.png)
 函數 https://matplotlib.org/2.1.2/api/_as_gen/matplotlib.pyplot.plot.html
 
 # boxplot
