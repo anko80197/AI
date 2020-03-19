@@ -36,7 +36,7 @@ plt.show()
 ```
 函數 https://matplotlib.org/2.1.2/api/_as_gen/matplotlib.pyplot.plot.html
 
-#boxplot
+# boxplot
 ```
 import numpy as np
 import matplotlib.pyplot as plt
