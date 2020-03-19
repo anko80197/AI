@@ -44,8 +44,21 @@ https://matplotlib.org/3.1.3/api/_as_gen/matplotlib.pyplot.boxplot.html
 import numpy as np
 import matplotlib.pyplot as plt
 
-fig = plt.figure()
-ax = plt.subplot()
-ax.boxplot([range(5), range(10), range(20)])
+deta = [178 ,  164,  159,  162,  182, 179   ,166  ,168  ,173  ,165]
+
+
+newDeta = sorted(deta)
+
+mAX = np.max(deta)
+mIn = np.min((deta))
+med = np.median(deta)
+
+
+
+
+fig1, ax1 = plt.subplots()
+ax1.set_title('Basic Plot')
+ax1.boxplot(newDeta)
 plt.show()
 ```
+![Alt text](C:\Users\I5302\Downloads\box.png)
