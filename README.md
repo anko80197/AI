@@ -1,9 +1,14 @@
 # AI
 getstart
+
 sign in github/gmail
+
 open Colaboratory
+
 open file>notebook>choice github>http:xxx>
+
 open file>Save a copy in Github
+
 ```
 import numpy as np
 import pandas as pd # 引用套件並縮寫為 pd  
