@@ -37,6 +37,7 @@ plt.show()
 函數 https://matplotlib.org/2.1.2/api/_as_gen/matplotlib.pyplot.plot.html
 
 # boxplot
+api:matplotlib.pyplot.boxplot(x, notch=None, sym=None, vert=None, whis=None, positions=None, widths=None, patch_artist=None, bootstrap=None, usermedians=None, conf_intervals=None, meanline=None, showmeans=None, showcaps=None, showbox=None, showfliers=None, boxprops=None, labels=None, flierprops=None, medianprops=None, meanprops=None, capprops=None, whiskerprops=None, manage_ticks=True, autorange=False, zorder=None, *, data=None)
 ```
 import numpy as np
 import matplotlib.pyplot as plt
