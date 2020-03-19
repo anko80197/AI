@@ -61,4 +61,4 @@ ax1.set_title('Basic Plot')
 ax1.boxplot(newDeta)
 plt.show()
 ```
-![Alt text](C:\Users\I5302\Downloads\box.png)
+![Alt text](C:/Users/I5302/Downloads/box.png)
