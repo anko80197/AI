@@ -73,3 +73,5 @@ ax1.boxplot(newDeta)
 plt.show()
 ```
 ![box](./box.png)
+
+
