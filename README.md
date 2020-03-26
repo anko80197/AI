@@ -14,7 +14,17 @@ import numpy as np
 import pandas as pd # 引用套件並縮寫為 pd  
 https://oranwind.org/python-pandas-ji-chu-jiao-xue/
 ```
+# int8/uint8
+0-255 , -128~0~127
+參考 https://openhome.cc/Gossip/Go/PreDeclaredType.html
 
+# 使用 numpy.genfromtxt 從文字檔中讀取資料
+
+```
+numpy.genfromtxt(fname, dtype=<class 'float'>, comments='#', delimiter=None, skip_header=0, skip_footer=0, converters=None, missing_values=None, filling_values=None, usecols=None, names=None, excludelist=None, deletechars=" !#$%&'()*+, -./:;<=>?@[\]^{|}~", replace_space='_', autostrip=False, case_sensitive=True, defaultfmt='f%i', unpack=None, usemask=False, loose=True, invalid_raise=True, max_rows=None, encoding='bytes')[source]
+```
+https://hackmd.io/@yizhewang/HyFxPWKXB
+官方https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html
 # plt
 
 
